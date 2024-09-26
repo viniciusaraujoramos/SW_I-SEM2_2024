@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 02-Set-2024 às 13:49
--- Versão do servidor: 10.4.32-MariaDB
--- versão do PHP: 8.2.12
+-- Tempo de geração: 26-Set-2024 às 14:30
+-- Versão do servidor: 10.4.27-MariaDB
+-- versão do PHP: 8.0.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `cadastro_cliente`
 --
-CREATE DATABASE IF NOT EXISTS `cadastro_cliente` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `cadastro_cliente`;
 
 -- --------------------------------------------------------
 
@@ -61,7 +59,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`) VALUES
-(1, 'WESLEY MENDES', 'wesley@email.com', '81dc9bdb52d04dc20036dbd8313ed055');
+(1, 'VINICIUS ARAUJO', 'vincius@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055');
 
 --
 -- Índices para tabelas despejadas
